@@ -1,3 +1,9 @@
+/* 
+mengganti string dengan huruf pertama dari setiap kata menggunakan huruf besar.
+contoh : ismara adi saputra menjadi
+         Ismara Adi Saputra
+  */
+
 let kata = "ismara adi saputra";
 let result = '';
 for(let i = 0; i < kata.length; i++)  {
