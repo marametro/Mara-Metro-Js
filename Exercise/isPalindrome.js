@@ -9,7 +9,7 @@ isPalindrome('') // true
 function isPalindrome(kata){
   let result = false;
   let word = '';
-  
+
   for(let i =  kata.length -1; i >= 0; i--)  {
     word += kata[i];
   }
